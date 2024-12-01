@@ -1,5 +1,5 @@
-### Hawaii Climate Analysis API - README
-## 📖 Overview
+# Hawaii Climate Analysis API - README
+### 📖 Overview
 Welcome to the Hawaii Climate Analysis API, a project that uses Python, Flask, SQLAlchemy, and SQLite to create a RESTful API for analyzing and accessing historical weather data in Hawaii. This project aims to provide a platform for exploring precipitation, temperature observations, and station data through various endpoints.
 
 As someone who has found SQL and database management challenging, completing this project was a significant milestone. I relied on multiple resources, collaboration, and AI tools to bridge the gaps in my understanding and complete this task. This README will document my process, challenges, and learnings, as well as the details of this application.
@@ -24,23 +24,23 @@ Copy code
 ## 💻 Features
 This application offers the following features through API routes:
 
-# 1. Precipitation Data
+### 1. Precipitation Data
 Route: /api/v1.0/precipitation
 Description: Retrieves the last 12 months of precipitation data in JSON format.
 Output: A dictionary with dates as keys and precipitation values as values.
-# 2. Weather Stations
+### 2. Weather Stations
 Route: /api/v1.0/stations
 Description: Lists all weather stations in the dataset.
 Output: A JSON array of station IDs.
-# 3. Temperature Observations
+### 3. Temperature Observations
 Route: /api/v1.0/tobs
 Description: Returns the last 12 months of temperature observations for the most active station.
 Output: A JSON array of temperature observations.
-# 4. Temperature Stats (Start Date)
+### 4. Temperature Stats (Start Date)
 Route: /api/v1.0/temp/<start>
 Description: Calculates the minimum, average, and maximum temperatures from a given start date to the most recent date.
 Output: JSON object with temperature statistics.
-# 5. Temperature Stats (Date Range)
+### 5. Temperature Stats (Date Range)
 Route: /api/v1.0/temp/<start>/<end>
 Description: Calculates the minimum, average, and maximum temperatures for a given date range.
 Output: JSON object with temperature statistics.
